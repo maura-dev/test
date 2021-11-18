@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+/* @import '~antd/dist/antd.css';
+
+.card-flex{
+    display:flex;
+    flex-direction:row;
+    margin: 70px auto 50px auto;
+    width:90%;
+    flex: 1 1 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.site-page-header{
+    width:100%;
+    position: fixed;
+    background-color: #fffffe;
+    z-index: 9;
+    font-size: 20px;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-input-placeholder { /* Edge */
+    color: #ffffff;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
+  
+  ::placeholder {
+    color: #ffffff;
   }
-}
+
+  .date-box{
+      display:flex;
+  }
+
